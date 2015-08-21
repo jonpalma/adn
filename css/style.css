@@ -19,8 +19,8 @@ Text Domain: Mixen Communication & Web Technology
 }
 
 body {
+	overflow-x: hidden;
 	margin-top: -20px;
-    overflow-x: hidden;
 }
 
 h1, h2, h3 {	
@@ -37,7 +37,6 @@ h1, h2, h3 {
 .padding {
 	padding: 100px 10px;
 }
-
 /* END GENERAL STYLES */
 
 /* BEGIN NAVBAR */
@@ -48,6 +47,7 @@ h1, h2, h3 {
     width: 85%;
     height: 105px;
     background-color: #ffffff;
+	border-bottom: none;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
@@ -70,11 +70,13 @@ h1, h2, h3 {
 	max-width: 1170px;
 	width: 100%;
 }
-
+.navbar-collapse li:hover {
+	background: #efefef
+}
 /* END NAVBAR */
 
 /* BEGIN INDEX */
-.banner {
+.banner {	
 	background: url(../img/backgrounds/bg1.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -86,10 +88,15 @@ h1, h2, h3 {
 .banner h1, h2 {
 	color: #f7f7f7;
 	font-family: 'Arimo', sans-serif;
+	
 }
 
 .banner h1 {
 	font-weight: 700;
+}
+
+.banner .container {
+	overflow-x: hidden;
 }
 /* END INDEX */
 
@@ -113,6 +120,9 @@ h1, h2, h3 {
 	display: block;	
 	margin: 0 auto;
 }
+.proyectos .container {
+	overflow-x: hidden;
+}
 /* END PROYECTOS */
 
 /* BEGIN ALIANZAS */
@@ -125,11 +135,11 @@ h1, h2, h3 {
 }
 
 .alianzas .padding {
-	padding-bottom: 0px;	
+	padding-bottom: 50px;	
 }
 
 .alianzas h1 {
-	margin-top: 150px;
+	margin-top: 100px;
 	color: #ffffff;
 	font: 400 12.63px / 30px;
 }
@@ -152,10 +162,14 @@ h1, h2, h3 {
 	font: 400 16px / 20px;
 }
 
+.alianzas .container {
+	overflow-x: hidden;
+}
 /* END ALIANZAS */
 
 /* BEGIN SERVICIOS */
-.servicios {
+.servicios .padding {
+    padding-top: 50px;
 }
 
 .servicios h1 {
@@ -183,11 +197,13 @@ h1, h2, h3 {
 	margin-top: 6px;
 }
 
+.servicios .container {
+	overflow-x: hidden;
+}
 /* END SERVICIOS */
 
 /* BEGIN SECTORES */
 .sectores {
-	
 }
 
 .sectores h1 {
@@ -214,6 +230,9 @@ h1, h2, h3 {
 	margin: 0 auto;
 }
 
+.sectores .container {
+	overflow-x: hidden;
+}
 /* END SECTORES */
 
 /* BEGIN CONTACTO */
@@ -229,8 +248,7 @@ h1, h2, h3 {
 	font: 400 16px / 30px;
 }
 
-.contacto .border-left {
-	
+.contacto .border-left {	
 	border-left: #f39c12 solid 2px;
 }
 
@@ -277,6 +295,9 @@ input:focus ,textarea:focus {
 	color: #f39c12;
 }
 
+.contacto .container {
+	overflow-x: hidden;
+}
 /* END CONTACTO */
 
 /* BEGIN FOOTER */
@@ -302,12 +323,12 @@ footer .border-left {
 }
 
 .footer-item {
-	margin: 70px 0;
+    margin: 30px 0;
 	height: 175px;
 }
 
 .footer-rights {
-	height: 48px;
+    min-height: 48px;
 	background-color: #3c7f63;
 	color: #ffffff;
 	font: 400 12px / 20px Mako;
@@ -315,8 +336,8 @@ footer .border-left {
 }
 
 .footer-rights .rights {
+    padding-top: 15px;
 	display: block;
-	padding-top: 15px;
 }
 
 .footer-rights a {
@@ -324,6 +345,9 @@ footer .border-left {
 	text-decoration: none;
 }
 
+.footer-rights a:hover {
+    color: #d9d9d9;
+}
 /* END FOOTER */
 
 /* Parallax CSS */
@@ -335,12 +359,12 @@ footer .border-left {
 }
 
 .parallax {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1; 
+	position: absolute;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	bottom: 0;
+  	z-index: -1; 
 }
 
 .parallax img {
@@ -356,7 +380,7 @@ footer .border-left {
 
 @media (max-width: 1200px) {
 	.navbar-adn li > a {
-		margin: auto;
+		margin: auto 9px;
 	}
 }
 
@@ -366,7 +390,12 @@ footer .border-left {
 		margin-left: 0%;
 	}
 	.navbar-brand img {
-		width: 110px;
+		width: 120px;
+	}
+	.navbar-adn li > a {
+		margin: auto 2px;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 }
 
@@ -384,7 +413,51 @@ footer .border-left {
 	.collapse {
 		
 	}
+	.contacto .border-left {	
+		border-left: none;
+	}
+	footer .border-left {
+		border-left: none;
+		float: none;
+		text-align: center;
+		padding-left: 0;
+		margin-bottom: 0px;
+	}
+	footer .border-right {
+		border-right: none;
+		float: none;
+	}
+	footer .border-right img {
+		float: none;
+		display: block;
+		margin: auto;
+	}
+	.footer-item {
+		margin: 1;
+		height: 170px;
+	}
+	.navbar-collapse {
+		position: fixed;
+		background-color: rgba(255,255,255,0.8);
+		right: 10%;
+		width: 238px;
+		border-radius: 10px;
+	}	
+	.navbar-collapse li {
+		margin-left: 100px;
+		max-width: 150px;
+		text-align: right;
+	}
+	h1, h2 {
+		font-size: 24px;
+	}
+	.sectores-item img {
+		width: 120px;
+	}
 }
 
 @media (max-width : 480px) {
+	.navbar-collapse {
+		right: 13%;
+	}
 }

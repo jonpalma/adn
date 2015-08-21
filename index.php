@@ -187,13 +187,14 @@
 				<p>mario.gutierrez@adnconsultores.com.mx</p>
 			</div>
 			<div class="col-sm-6 border-left">
-				<form action="">
+				<form method="post" action="mailer.php" id="contact-form">
 					<input type="text" id="name" name="name" placeholder="Nombre"><br>
 					<input type="text" id="phone" name="phone" placeholder="Teléfono"><br>
 					<input type="text" id="email" name="email" placeholder="Email"><br>
 					<textarea id="info" cols="30" rows="4" name="info" placeholder="Comentario"></textarea><br>
 					<button class="submit" id="form-submit">Enviar</button>
 				</form>
+				<div id="form-output"></div>
 			</div>
 		</div>
 	</div>

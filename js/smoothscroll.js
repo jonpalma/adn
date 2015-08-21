@@ -254,7 +254,7 @@ if (!window['jQuery']) alert('The jQuery library must be included before the smo
 		event: 'click', // On which event to react.
 		stop: true, // Avoid queuing animations 
 		target: window, // What to scroll (selector or element). The whole window by default.
-        offset: -125, //Change this to offset for fixed headers 
+		offset: -105, //Change this to offset for fixed headers 
         hash: false
 		/*
 		lock: false, // ignore events if already animating
