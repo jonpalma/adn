@@ -184,7 +184,7 @@
 		<div class="row">
 			<div class="col-sm-6">
 				<p><strong>Correo:</strong></p>
-				<p>mario.gutierrez@adnconsultores.com.mx</p>
+				<p>contacto@adnconsultores.com.mx</p>
 			</div>
 			<div class="col-sm-6 border-left">
 				<form method="post" action="mailer.php" id="contact-form">

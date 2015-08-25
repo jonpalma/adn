@@ -6,7 +6,7 @@
 						<img src="img/content/footer/logo.png" alt="logotipo">
 					</div>
 					<div class="col-sm-6 border-left footer-item">
-						<p>mario.gutierrez@adnconsultores.com.mx</p>
+						<p>contacto@adnconsultores.com.mx</p>
 						<p>Síguenos en:</p>
 						<a href=""><img src="img/content/footer/fb.png" alt="facebook"></a>
 					</div>
