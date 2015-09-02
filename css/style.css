@@ -280,6 +280,14 @@ input:focus ,textarea:focus {
 	margin-bottom: 20px;
 }
 
+.submit:hover {
+	background-color: #d58910;	
+}
+
+.submit:focus {
+	outline: none;	
+}
+
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
 	color: #f39c12;
 }

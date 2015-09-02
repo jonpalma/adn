@@ -8,7 +8,7 @@
 					<div class="col-sm-6 border-left footer-item">
 						<p>contacto@adnconsultores.com.mx</p>
 						<p>Síguenos en:</p>
-						<a href=""><img src="img/content/footer/fb.png" alt="facebook"></a>
+						<a href="https://www.facebook.com/pages/ADN-Asesor%C3%ADa-De-Negocios/1687956171430793?fref=ts"><img src="img/content/footer/fb.png" alt="facebook"></a>
 					</div>
 				</div>				
 			</div>
