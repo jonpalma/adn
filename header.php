@@ -9,20 +9,12 @@
         <meta name="keywords" content="Consultores en chihuahua, consultoría en chihuahua, consultoría de negocios, asesoría de negocios, estudios costo-beneficios, efectos legales">
         <meta name="author" content="Agencia Mixen - www.mixen.mx">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/style.css">	
+		<link rel="stylesheet" href="css/style.css">
+		<script type="text/javascript"> setTimeout(function(){var a=document.createElement("script"); var b=document.getElementsByTagName("script")[0]; a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0020/7404.js?"+Math.floor(new Date().getTime()/3600000); a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1); </script>	
 	</head>
 	<body> 
-   <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-66803503-1', 'auto');
-      ga('send', 'pageview');
-    </script>
+    <script> (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-66803503-1', 'auto'); ga('send', 'pageview'); </script>
     <?php echo ($p=='index')? 'data-spy="scroll" data-target=".navbar-nav"':'' ?>		
-         
     
 		<!-- BEGIN NAVBAR -->
 		<nav class="navbar navbar-default navbar-fixed-top navbar-adn">

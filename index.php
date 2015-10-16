@@ -6,7 +6,7 @@
 <div class="banner" id="inicio">
 	<div class="container transform-center-vertical">
 		<h1>Tercera ley de ADN:</h1>
-		<h2>Si un inversionista desempeña el trabajo adecuado en la mejor alternativa de proyectos genera valor. Lo contrario lo destruye.</h2>
+		<h2>Si un inversionista desempeña el trabajo adecuado en la mejor alternativa de proyectos, genera valor. Lo contrario lo destruye.</h2>
 	</div>
 </div>
 

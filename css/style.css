@@ -330,6 +330,10 @@ footer .border-left {
 	padding-left: 30px;
 }
 
+footer .border-left img.overlay {
+	background: rgba(58, 87, 149, 1);
+}
+
 .footer-item {
     margin: 30px 0;
 	height: 175px;
