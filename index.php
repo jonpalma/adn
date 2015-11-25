@@ -75,6 +75,9 @@
 		<img src="img/content/yellow-line.png" alt="yellow line">
 		<h1>BCG</h1>
 		<p>Elaboramos valuación financiera de marcas y patentes, intangibles, fusiones y adquisiciones, así como de acciones en colaboración con Corredores Públicos para avalúos con efectos legales.</p>
+		<img src="img/content/yellow-line.png" alt="yellow line">
+		<h1>INPRO</h1>
+		<p>Elaboramos proyectos de productividad en las empresas.</p>
 	</div>
 </div>
 <!-- END ALIANZAS -->

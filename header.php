@@ -8,6 +8,7 @@
 		<meta name="description" content="Elaboramos valuación financiera de marcas y patentes, intangibles, fusiones y adquisiciones, así como de acciones en colaboración con Corredores Públicos para avalúos con efectos legales.">
         <meta name="keywords" content="Consultores en chihuahua, consultoría en chihuahua, consultoría de negocios, asesoría de negocios, estudios costo-beneficios, efectos legales">
         <meta name="author" content="Agencia Mixen - www.mixen.mx">
+        <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/style.css">
 		<script type="text/javascript"> setTimeout(function(){var a=document.createElement("script"); var b=document.getElementsByTagName("script")[0]; a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0020/7404.js?"+Math.floor(new Date().getTime()/3600000); a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1); </script>	
