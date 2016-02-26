@@ -113,7 +113,7 @@
 				<div class="col-md-4 col-sm-4">
 					<img src="img/content/icon/justice.png" alt="balanza">
 					<h3>VALUACIÓN CON EFECTOS JURÍDICOS</h3>
-					<p>Cuando los activos y pasivos subyacentes son objeto de disputas comerciales o se encuentran dentro de juicios, la valuación es un instrumento para generar acuerdos, negociar estrategias de pago y fallar en sentencias.</p>
+					<p>Perito en finanzas y economía oficial para el Poder Judicial del Estado de Nuevo León. Cuando los activos y pasivos subyacentes son objeto de disputas comerciales o se encuentran dentro de juicios, la valuación es un instrumento para generar acuerdos, negociar estrategias de pago y fallar en sentencias.</p>
 				</div>
 				<div class="col-md-4 col-sm-4">
 					<img src="img/content/icon/gear.png" alt="engrane">
@@ -137,6 +137,17 @@
 					<h3>ESTUDIOS DE FACTIBILIDAD DE PROYECTOS DE INVERSIÓN</h3>
 					<p>Abarca la mayoría de tópicos necesarios para llevar a la fase de implementación. Estudios de mercado, planes de negocio, estudio técnico, estudio financiero, estudio socio-económico, factibilidad legal, impacto ambiental.</p>
 				</div>
+				<div class="col-md-4 col-sm-4">
+					<img src="img/content/icon/table.png" alt="tabla">
+					<h3>IMPLEMENTACIÓN ESTRATÉGICA</h3>
+					<p>Parte de un diagnóstico competitivo de la empresa en tres fases; implementación, ejecución y evaluación de los objetivos estratégicos. Analiza aprendizajes, procesos, clientes y financieros en un scorecard.</p>
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<img src="img/content/icon/bills.png" alt="billetes">
+					<h3>PRECIOS DE TRANSFERENCIA</h3>
+					<p>Fundamenta el valor de tus transacciones entre subsidiarias a precios de mercado.</p>
+				</div>
+				<div class="col-md-4 col-sm-4"></div>
 			</div>	
 		</div>
 	</div>

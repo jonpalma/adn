@@ -14,7 +14,7 @@
 			</div>
 			<div class="footer-rights">
 				<div class="container rights">
-					<p>Todos los derechos reservados ADN 2015| Design by: <a href="http://mixen.mx"><img src="http://mixen.mx/firma/logo-mixen.png" alt="Agencia Mixen" /> mixen.mx</a></p>
+					<p>Todos los derechos reservados ADN <?php echo date('Y');?> | Design by: <a href="http://mixen.mx"><img src="http://mixen.mx/firma/logo-mixen.png" alt="Agencia Mixen" /> mixen.mx</a></p>
 				</div>
 			</div>
 		</footer>
